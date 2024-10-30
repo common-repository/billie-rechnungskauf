@@ -1,0 +1,274 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Billie Rechnungskauf\n"
+"POT-Creation-Date: 2024-06-03 08:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-billie.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Language: "
+
+#: src/Billie/Billie/Gateway.php:626
+#, php-format
+msgid "[Billie] Credit note for invoice %s has been created: %s"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:685
+#, php-format
+msgid "[Billie] Invoice %s has been deleted"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:667
+#, php-format
+msgid "[Billie] Invoice has been created: %s"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:595
+#, php-format
+msgid "[Billie] Order %s has been deleted"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:506
+#, php-format
+msgid "[Billie] Order %s has been updated"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:387
+#, php-format
+msgid "[Billie] Order has been created: %s"
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:132
+#, php-format
+msgid "Bank: %s"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:90
+msgid ""
+"Based upon your Billie contract, your customers will have between 7 and 120 "
+"days (payment term) to pay your invoices."
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:147
+msgid "Bestellung noch nicht versendet"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:110
+msgid ""
+"Bezahlen Sie bequem und sicher auf Rechnung - innerhalb von {Zahlungsziel} "
+"Tagen nach Erhalt der Ware."
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:123
+#, php-format
+msgid "BIC: %s"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:39
+msgid "Billie"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:40
+#: src/Billie/Billie/BillieBlocksSupport.php:79
+msgid "Billie Description"
+msgstr ""
+
+#. Name of the plugin
+#: src/Billie/Billie/Gateway.php:84
+msgid "Billie Rechnungskauf"
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:95
+#, php-format
+msgid ""
+"Bitte überweisen Sie den Rechnungsbetrag bis zum %s unter Angabe der "
+"Rechnungsnummer auf folgendes Konto:"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:122
+msgid "Client ID"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:126
+msgid "Client Secret"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:159
+#, php-format
+msgid "Client settings error: %s"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:108
+msgid "Customer Message"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:410
+msgid "Debit amount must be greater than zero."
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:77
+msgid "Enable this payment method"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:75
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:142
+#, php-format
+msgid "Fälligkeitsdatum: %s"
+msgstr ""
+
+#: src/Billie/Plugin.php:271
+msgid "Gateway not found"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:105
+msgid "Hide Billie Logo"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:103
+msgid "Hide Logo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pooliestudios.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.billie.io/"
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:114
+#, php-format
+msgid "IBAN: %s"
+msgstr ""
+
+#: src/Billie/Admin/Order.php:56
+msgid "Invoice"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:648
+msgid "Invoice ID not set"
+msgstr ""
+
+#: views/admin/order-invoice.php:5
+msgid "Invoice-ID"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Jetzt durchstarten mit der beliebtesten Zahlungsart für B2B-Shops: Billie "
+"Rechnungskauf"
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:105
+#, php-format
+msgid "Kontoinhaber: %s"
+msgstr ""
+
+#: src/Billie/Billie/Api.php:87
+msgid "Missing Credentials"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:227
+msgid "Order not found."
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:38
+#: src/Billie/Billie/BillieBlocksSupport.php:78
+msgid "Pay After Delivery"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:214 src/Billie/Billie/Gateway.php:215
+msgid "Payment declined."
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:217 src/Billie/Billie/Gateway.php:218
+msgid "Payment failed."
+msgstr ""
+
+#: src/Billie/Admin/Order.php:35
+msgid "Payment info"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:235
+msgid "Payment not authorized."
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:88
+msgid "Payment Term"
+msgstr ""
+
+#. Author of the plugin
+msgid "pooliestudios"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:117
+msgid "Production"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:116
+msgid "Sandbox"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:113
+msgid "Sandbox or production"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:95
+msgid "Sending invoice at this order status"
+msgstr ""
+
+#: src/Billie/Plugin.php:153
+msgid ""
+"Since this order will be paid via Billie you won't be able to change the "
+"addresses."
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:83
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:611
+msgid "This order has not been captured yet."
+msgstr ""
+
+#: views/checkout/payment-form.php:19 src/Billie/Billie/Gateway.php:468
+msgid "This payment option is only available for company customers."
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:81
+msgid "Title"
+msgstr ""
+
+#: src/Billie/Billie/Api.php:39
+msgid "Unexpected validation client id"
+msgstr ""
+
+#: src/Billie/Billie/Api.php:35
+msgid "Unexpected validation format"
+msgstr ""
+
+#: src/Billie/Billie/PaymentInfo.php:154
+#, php-format
+msgid "Verwendungszweck: %s"
+msgstr ""
+
+#: src/Billie/Billie/Gateway.php:99
+msgid "When order changes to this status, the payment is captured at Billie."
+msgstr ""

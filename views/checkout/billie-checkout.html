@@ -1,0 +1,28 @@
+<script>
+    function billie_is_selected() {
+        return 'billie' === jQuery('input[name=payment_method]:checked').val();
+    }
+    function billie_is_b2b() {
+        var billing_company = jQuery('#billing_company').val();
+        return typeof billing_company !== 'undefined' && '' !== billing_company;
+    }
+    function billie_maybe_show_b2b2_error() {
+        if (billie_is_selected()) {
+            if (billie_is_b2b()) {
+                jQuery('#billie_error_b2b').hide();
+            } else {
+                jQuery('#billie_error_b2b').show();
+            }
+        }
+    }
+    jQuery(document).ready(function () {
+        jQuery('#billing_company')
+            .on('change', function () {
+                billie_maybe_show_b2b2_error();
+            });
+        jQuery(document.body)
+            .on('updated_checkout', function () {
+                billie_maybe_show_b2b2_error();
+            });
+    });
+</script>
